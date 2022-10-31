@@ -6,6 +6,7 @@ namespace SnakeGameOne.Entidades
 {
     public class Cell
     {
+        private string _val;
         public string val
         {
             get;
@@ -16,6 +17,7 @@ namespace SnakeGameOne.Entidades
             get;
             set;
         }
+        private string _y;
         public int y
         {
             get;
