@@ -4,6 +4,7 @@ using System.Text;
 
 namespace SnakeGameOne.Entidades
 {
+
     public class Cell
     {
         private string _val;
@@ -23,11 +24,13 @@ namespace SnakeGameOne.Entidades
             get;
             set;
         }
+        private bool _visited;
         public bool visited
         {
             get;
             set;
         }
+        private int _decay;
         public int decay
         {
             get;

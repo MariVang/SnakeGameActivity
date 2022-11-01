@@ -10,18 +10,18 @@ namespace SnakeGameOne
 {
     class Program
     {
-
-        static readonly int gridW = 90;
-        static readonly int gridH = 25;
-        static Cell[,] grid = new Cell[gridH, gridW];
-        static Cell currentCell;
-        static Cell food;
-        static int FoodCount;
-        static int direction; //0=Up 1=Right 2=Down 3=Left
-        static readonly int speed = 1;
-        static bool Populated = false;
-        static bool Lost = false;
-        static int snakeLength;
+            static readonly int gridW = 90;
+            static readonly int gridH = 25;
+            static Cell[,] grid = new Cell[gridH, gridW];
+            static Cell currentCell;
+            static Cell food;
+            static int FoodCount;
+            static int direction; //0=Up 1=Right 2=Down 3=Left
+            static readonly int speed = 1;
+            static bool Populated = false;
+            static bool Lost = false;
+            static int snakeLength;
+        
 
         static void Main(string[] args)
         {
@@ -274,6 +274,7 @@ namespace SnakeGameOne
             }
             Console.WriteLine(toPrint);
         }
+
         
     }
 }
